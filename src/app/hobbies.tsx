@@ -35,6 +35,7 @@ export default function Hobbies() {
   );
 }
 
+
 const styles = StyleSheet.create({
   contenedor: { padding: 20, backgroundColor: '#F7F5FA', flexGrow: 1 },
   titulo: { fontSize: 22, fontWeight: '800', marginBottom: 10, color: '#252033' },

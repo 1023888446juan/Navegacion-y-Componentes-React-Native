@@ -8,6 +8,7 @@ export default function Inicio() {
   const abrirCorreo = () => Linking.openURL(`mailto:${correo}`).catch(() => Alert.alert('Correo', correo));
   const llamar = (numero: string) => Linking.openURL(`tel:${numero}`).catch(() => Alert.alert('Teléfono', numero));
 
+  
   return (
     <ScrollView contentContainerStyle={styles.contenedor}>
       <View style={styles.perfil}>

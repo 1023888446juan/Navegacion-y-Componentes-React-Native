@@ -13,6 +13,7 @@ export default function Experiencia() {
       />
     </ScrollView>
   );
+
   
 }
 const styles = StyleSheet.create({
