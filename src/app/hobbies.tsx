@@ -5,14 +5,10 @@ export default function Hobbies() {
   return (
     <ScrollView contentContainerStyle={styles.contenedor}>
       <Text style={styles.titulo}>Mis hobbies e intereses</Text>
-      <Text style={styles.intro}>
-        En mi tiempo libre disfruto actividades que me ayudan a entretenerme,
-        expresarme y mantener un buen equilibrio entre mi vida personal y mis estudios.
-      </Text>
 
       <TarjetaHobby
         nombre="Escuchar música"
-        detalle="Disfruto escuchar música en mis momentos libres y conocer diferentes canciones y géneros."
+        detalle="Me gusta escuchar musica en mis momentos de descanso."
         onPress={() => Alert.alert('Escuchar música', 'La música me acompaña en mis momentos de descanso y me ayuda a relajarme.')}
       />
       <TarjetaHobby

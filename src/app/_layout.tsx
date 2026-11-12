@@ -5,6 +5,7 @@ import { StatusBar } from 'expo-status-bar';
 export default function Layout() {
   return (
     <>
+
       <StatusBar style="dark" />
       <Tabs screenOptions={{
         headerShown: true,
@@ -30,6 +31,7 @@ export default function Layout() {
           tabBarIcon: ({ color, size }) => <Ionicons name="heart-outline" size={size} color={color} />
         }} />
       </Tabs>
+      
     </>
   );
 }

@@ -13,6 +13,7 @@ export default function Experiencia() {
       />
     </ScrollView>
   );
+  
 }
 const styles = StyleSheet.create({
   contenedor: { padding: 20, backgroundColor: '#F7F5FA', flexGrow: 1 },
