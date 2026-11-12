@@ -11,7 +11,6 @@ export default function TarjetaHobby({ nombre, detalle, onPress }: Props) {
     </Pressable>
   );
 }
-
 const styles = StyleSheet.create({
   tarjeta: { backgroundColor: '#FFFFFF', padding: 16, borderRadius: 14, marginBottom: 12, borderWidth: 1, borderColor: '#E5E0EE' },
   nombre: { fontSize: 16, fontWeight: '700', color: '#252033' },
