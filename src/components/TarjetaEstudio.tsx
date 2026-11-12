@@ -14,7 +14,6 @@ export default function TarjetaEstudio({ institucion, titulo, periodo, enCurso }
     </View>
   );
 }
-
 const styles = StyleSheet.create({
   tarjeta: { backgroundColor: '#FFFFFF', padding: 16, borderRadius: 14, marginBottom: 12, borderWidth: 1, borderColor: '#E5E0EE' },
   actual: { backgroundColor: '#F0E9FF', borderColor: '#8B5CF6' },

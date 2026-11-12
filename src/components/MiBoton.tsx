@@ -9,7 +9,6 @@ export default function MiBoton({ titulo, onPress }: Props) {
     </Pressable>
   );
 }
-
 const styles = StyleSheet.create({
   boton: { backgroundColor: '#6C3CC7', paddingVertical: 13, paddingHorizontal: 18, borderRadius: 12, marginVertical: 6, alignItems: 'center' },
   presionado: { opacity: 0.75 },
