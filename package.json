@@ -11,16 +11,16 @@
     "reset-project": "node ./scripts/reset-project.js"
   },
   "dependencies": {
+    "@expo/vector-icons": "*",
     "expo": "*",
+    "expo-constants": "*",
+    "expo-linking": "*",
     "expo-router": "*",
     "expo-status-bar": "*",
-    "expo-linking": "*",
-    "expo-constants": "*",
+    "react": "19.3.0",
+    "react-native": "*",
     "react-native-safe-area-context": "*",
-    "react-native-screens": "*",
-    "@expo/vector-icons": "*",
-    "react": "*",
-    "react-native": "*"
+    "react-native-screens": "*"
   },
   "devDependencies": {
     "@types/react": "*",
