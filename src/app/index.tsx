@@ -1,8 +1,9 @@
 import { ScrollView, View, Text, StyleSheet, Alert, Linking } from 'react-native';
 import MiBoton from '../components/MiBoton';
 
-const correo = 'castanedaromerojuandiego@gmail.com - JDCR37085735@soy.sena.edu.co';
+const correo = 'castanedaromerojuandiego@gmail.com';
 const telefonos = ['3225460545', '3115408723'];
+
 
 export default function Inicio() {
   const abrirCorreo = () => Linking.openURL(`mailto:${correo}`).catch(() => Alert.alert('Correo', correo));
