@@ -13,7 +13,6 @@ export default function Estudios() {
       <TarjetaEstudio institucion="Colegio Alejandro Obregón" titulo="Educación básica primaria" periodo="2018" enCurso={false} />
     </ScrollView>
   );
-  
 }
 const styles = StyleSheet.create({
   contenedor: { padding: 20, backgroundColor: '#F7F5FA', flexGrow: 1 },
