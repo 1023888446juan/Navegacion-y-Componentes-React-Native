@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "Hoja de Vida Movil",
+    "slug": "hoja-de-vida-movil",
+    "scheme": "hojadevidamovil",
+    "plugins": ["expo-router"],
+    "experiments": { "typedRoutes": true }
+  }
+}
